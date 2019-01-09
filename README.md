@@ -5,5 +5,5 @@
 
 >https://www.acmicpc.net/
 
-<h5>사용언어 : C++ 11</h5>
+<h5>사용언어 : C++ 14</h5>
 
