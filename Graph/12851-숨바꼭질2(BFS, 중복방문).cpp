@@ -25,7 +25,7 @@ int main() {
 		int now = q.front(); q.pop();
 
 		int next = now + 1;
-		if (0 < next && next < 200001)
+		if (0 <= next && next < 200001)
 		{
 			if (dists[next] == -1)
 			{
@@ -38,7 +38,7 @@ int main() {
 		}
 
 		next = now - 1;
-		if (0 < next && next < 200001)
+		if (0 <= next && next < 200001)
 		{
 			if (dists[next] == -1)
 			{
@@ -51,7 +51,7 @@ int main() {
 		}
 
 		next = now * 2;
-		if (0 < next && next < 200001)
+		if (0 <= next && next < 200001)
 		{
 			if (dists[next] == -1)
 			{
