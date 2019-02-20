@@ -90,6 +90,5 @@ int main() {
 		cin >> u >> v;
 		cout << lca(u,v,vertex) << '\n';
 	}
-
 	return 0;
 }
